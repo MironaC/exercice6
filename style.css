@@ -26,9 +26,36 @@ a{
 
 }
 
-.texteIntro{
-    font-size: 3em;
+.site-title{
+  color: #000; 
+  font-size: 2em;
+  text-align:  left;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 10em;
+  animation: type 3s steps(60, end); 
 }
+
+.site-description{
+    font-family: arial;
+    text-transform: uppercase;
+    font-weight: bold;
+    animation: color-change 10s infinite !important;
+}
+
+@keyframes color-change {
+    0% { color: #1a2a6c; }
+    50% { color: #b21f1f; }
+    100% { color: #fdbb2d; }
+}
+.site-description:hover{
+
+        transform: scale(1.3);
+}
+
+@keyframes type{ 
+  from { width: 0; } 
+} 
 
 .merci{
     background-color: aquamarine;
