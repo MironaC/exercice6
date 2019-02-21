@@ -23,4 +23,9 @@ a{
 .galerieForet{
     border: solid 2px yellow;
     padding: 2em;
+
+}
+
+.texteIntro{
+    font-size: 3em;
 }
