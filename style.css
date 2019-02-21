@@ -19,3 +19,8 @@
 a{
         color: red;
 }
+
+.galerieForet{
+    border: solid 2px yellow;
+    padding: 2em;
+}
